@@ -14,13 +14,13 @@ const Nav = () => {
                     
                 />
             </a>
+            {/* Desktop View (max-lg:hidden if not meet up lg view , make it invisible */}                                          
             <ul className='flex flex-1 justify-center items-center gap-16 max-lg:hidden'>
                 <a href="">Link</a>
                 <a href="">Link</a>
                 <a href="">Link</a>
                 <a href="">Link</a>
             </ul>
-           
         </nav>
     </header>
   )
