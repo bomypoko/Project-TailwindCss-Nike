@@ -1,11 +1,11 @@
-import React from 'react'
+import { Hero , CustomerReviews , Footer, PopularProducts, Services , SpecialOffer, Subscribe , SuperQuality } from './sections/index'
 
 const App = () => {
   return (
     <main className='relative'>
       Nav
       <section className='xl:padding-1 wide:bg-red-300 wide:padding-r padding-b'>
-        Hero
+        <Hero/>
       </section>
       <section className='padding'>
         PopularProduct
